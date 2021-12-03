@@ -77,9 +77,9 @@ public class Main {
             printStatementToConsole("Spiel beendet. Leider ein unentschieden!");
         } else {
             if (winnerSign.equals(playerOne.getSign())) {
-                printStatementToConsole("Spiel beendet. Herzlichen Glückwunsch " + playerOne.getName());
+                printStatementToConsole("Spiel beendet. Herzlichen Glückwunsch " + playerOne.getName() + "!");
             } else {
-                printStatementToConsole("Spiel beendet. Herzlichen Glückwunsch " + playerTwo.getName());
+                printStatementToConsole("Spiel beendet. Herzlichen Glückwunsch " + playerTwo.getName() + "!");
             }
         }
     }
