@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class TicTacToeApplication {
 
     private static final int NUMBER_OF_FIELDS = 9;
     private static final int MAX_FIELD_VALUE_X = 2;
